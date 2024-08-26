@@ -1,0 +1,52 @@
+[
+    {
+      "nombre": "Mustard",
+      "descripcion": "Las mejores hamburguesas, hechas con Amor.",
+      "mostrarDireccion" : true,
+      "direccion_emprendimiento": "España 649, San Miguel",
+      "posicion_emprendimiento": [-34.5361969734694,-58.7107224346939],
+      "telefono": "555-1234",
+      "rubro": "Comida",
+      "horario_de_atencion": "9:00 a 20:00"
+    },
+    {
+      "nombre": "Aprende de todo",
+      "descripcion": "Clases particulares para alumnos de primaria",
+      "direccion_emprendimiento": "Convento de San Carlos 2371, Malvinas Argentinas",
+      "posicion_emprendimiento": [ -34.4903496798658,-58.7074810550336],
+      "mostrarDireccion" : false,
+      "telefono": "555-5678",
+      "rubro": "Educacion",
+      "horario_de_atencion": "9:00 a 20:00"
+    },
+    {
+      "nombre": "Aesthetic",
+      "descripcion": "La mejor ropa en todo San Miguel para todas las edades",
+      "direccion_emprendimiento": "España 2000, San Miguel",
+      "posicion_emprendimiento": [-34.5460398, -58.7211845],
+      "mostrarDireccion" : true,
+      "telefono": "555-7890",
+      "rubro": "Moda",
+      "horario_de_atencion": "9:00 a 20:00"
+    },
+    {
+      "nombre": "El sultan",
+      "descripcion": "Comida arabe al alcance de la mano",
+      "mostrarDireccion" : true,
+      "direccion_emprendimiento": "Yatasto 1497, Malvinas Argentinas",
+      "posicion_emprendimiento": [-34.4841024867347, -58.7227605357143],
+      "telefono": "555-1234",
+      "rubro": "Comida",
+      "horario_de_atencion": "9:00 a 20:00"
+    },
+    {
+      "nombre": "Mateamigos",
+      "descripcion": "Clases particulares de matematica para todos los niveles",
+      "direccion_emprendimiento": "España 649, San Miguel",
+      "posicion_emprendimiento": [-34.5361969734694,-58.7107224346939],
+      "mostrarDireccion" : false,
+      "telefono": "555-5678",
+      "rubro": "Educacion",
+      "horario_de_atencion": "9:00 a 20:00"
+    }
+  ]

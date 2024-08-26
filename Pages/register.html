@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Vehiculo</title>
+    <link rel="stylesheet" href="reg-styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="index.html" class="nav-link">Control de Servicios de Automóviles</a>
+            <nav>
+                <a href="reportes.html">Reportes</a>
+                <a href="historial-trabajos.html">Historial de Trabajos</a>
+                <a href="personal.html">Personal</a>
+            </nav>
+        </div>
+    </header>
+    <main class="registration-container">
+
+        <h1 id="Datos del Vehiculo">Datos del Vehiculo</h1>
+        <form class="registration-form" id="business-form">
+            <label for="marca_vehiculo">Marca</label>
+            <select id="marcas" name="marca_vehiculo" required>
+                <option value="" disabled selected>Seleccione una marca</option>
+                <option value="ford">Ford</option>
+                <option value="volkswagen">Volkswagen</option>
+                <option value="suzuki">Suzuki</option>
+                <option value="renault">Renault</option>
+                <option value="peugeot">Peugeot</option>
+            </select>
+
+            <label for="modelo_vhiculo">Modelo</label>
+            <input type="text" id="modelo" name="modelo">
+                <div id="business-address-validation-result"></div>
+            </div>
+            
+            <label for="patente_vehiculo">Patente</label>
+            <input type="text" id="patente" name="patente" required>
+
+            <label for="kilometraje">Kilometraje:</label>
+            <input type="range" id="kilometraje" name="kilometraje" min="0" max="300000" step="1000" value="0" oninput="this.nextElementSibling.value = this.value">
+            <output>0</output>km
+            
+            <label for="color_vehiculo">Color</label>
+            <input type="text" id="color_vehiculo" name="color" required>
+            
+            
+            <label for="observaciones_vehiculo">Observaciones</label>
+            <textarea id="observaciones_vahiculo" name="observaciones_vehiculo" rows="4" required></textarea>
+
+        <h1 id="nombre_usuario">Registro de Usuario</h1>
+        <form class="registration-form" id="user-form">
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="phone">Teléfono:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="address">Dirección:</label>
+            <input type="text" id="address" name="address" required>
+            <div id="user-address-validation-result"></div>
+            
+        </form>
+
+            <button type="submit" class="submit-btn">Registrar</button>
+        </form>
+        <div id="error-message" class="message-container"></div>
+        <div id="success-message" class="message-container"></div>
+    </main>
+
+    <script src=""></script>
+</body>
+</html>
